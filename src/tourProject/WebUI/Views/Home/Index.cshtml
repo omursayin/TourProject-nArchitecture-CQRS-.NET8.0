@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewData["Title"] = "Ana Sayfa";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+@await Component.InvokeAsync("_HomePageSearchComponentPartial")
+
+@await Component.InvokeAsync("_HomePageServicesComponentPartial")
+
+@await Component.InvokeAsync("_HomePageDestinationCountryComponentPartial")
+
+@await Component.InvokeAsync("_HomePageDestinationsComponentPartial")
+
+@await Component.InvokeAsync("_HomePageAboutImageComponentPartial")
+
+@await Component.InvokeAsync("_HomePageAboutComponentPartial")
+
+@await Component.InvokeAsync("_HomePageTestimonialComponentPartial")
+
+@await Component.InvokeAsync("_HomePageBlogComponentPartial")
+
+@await Component.InvokeAsync("_HomePageIntroComponentPartial")

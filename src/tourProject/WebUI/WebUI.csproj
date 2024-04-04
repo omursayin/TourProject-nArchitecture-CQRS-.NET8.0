@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\pacific-main\.DS_Store" />
+    <None Include="wwwroot\pacific-main\css\.DS_Store" />
+    <None Include="wwwroot\pacific-main\fonts\.DS_Store" />
+    <None Include="wwwroot\pacific-main\fonts\flaticon\.DS_Store" />
+    <None Include="wwwroot\pacific-main\images\.DS_Store" />
+    <None Include="wwwroot\pacific-main\js\.DS_Store" />
+    <None Include="wwwroot\pacific-main\scss\.DS_Store" />
+    <None Include="wwwroot\pacific-main\scss\bootstrap\.DS_Store" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.2" />
+  </ItemGroup>
+
+</Project>
